@@ -12,7 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $data['status'] = App\Status::all();
+    return view('pages/status')->with($data);    
 });
 
 /*

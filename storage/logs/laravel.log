@@ -6448,3 +6448,6 @@ Stack trace:
 #2 /home/bibennurbani/Documents/Project/KoperasiBandung/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(107): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
 #3 /home/bibennurbani/Documents/Project/KoperasiBandung/artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
 #4 {main}  
+[2016-03-22 05:29:36] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Status' not found' in /home/bibennurbani/Documents/Project/KoperasiBandung/app/Http/routes.php:15
+Stack trace:
+#0 {main}  
