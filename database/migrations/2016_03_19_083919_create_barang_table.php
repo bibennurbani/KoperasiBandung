@@ -13,8 +13,8 @@ class CreateBarangTable extends Migration
     public function up()
     {
         Schema::create('Barang', function (Blueprint $table) {
-            $table->increments('id');
-            $table->string('nama');
+            $table->bigIncrements('id');
+            $table->string('nama',25);
             $table->timestamps();
         });
     }

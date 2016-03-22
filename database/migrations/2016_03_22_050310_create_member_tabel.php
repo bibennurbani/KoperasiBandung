@@ -13,7 +13,10 @@ class CreateMemberTabel extends Migration
     public function up()
     {
         Schema::create('Member', function (Blueprint $table) {
-            $table->increments('id');
+            $table->bigIncrements('id');
+            $table->string('nama');
+            $table->string('alamat');
+            $table->increments('status');
             $table->timestamps();
         });
     }

@@ -14,10 +14,10 @@ class CreatePdPasar extends Migration
     {
         Schema::create('PDPasar', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('code');
-            $table->string('nama');
-            $table->string('telepon');
-            $table->string('alamat');
+            $table->char('code',4);
+            $table->string('nama',25);
+            $table->string('telepon',25);
+            $table->string('alamat',50);
             $table->timestamps();
         });
     }

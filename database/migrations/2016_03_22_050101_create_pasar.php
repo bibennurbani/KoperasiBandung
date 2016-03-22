@@ -13,11 +13,11 @@ class CreatePasar extends Migration
     public function up()
     {
         Schema::create('Pasar', function (Blueprint $table) {
-            $table->increments('id');
+            $table->bigIncrements('id');
             $table->integer('pdpasar_id')->unsigned();
-            $table->string('nama');
-            $table->string('alamat');
-            $table->string('wilayah');
+            $table->string('nama',25);            
+            $table->string('wilayah',25);
+            $table->string('alamat',50);
             $table->timestamps();
 
             $table->foreign('pdpasar_id')->references('id')->on('PDPasar');
