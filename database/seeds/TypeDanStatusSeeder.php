@@ -25,10 +25,10 @@ class TypeDanStatusSeeder extends Seeder
         array_map(function ($name){
             $now = date('Y-m-d H:i:s',strtotime('now'));
             DB::table('Status')->insert([
-                    'code'=>substr($name.3),
+                    'code'=>substr($name,0,3),
                     'name'=>$name,
                     'description'=>"Status untuk pemesanan",
-                    'type' => 1,
+                    'type_id' => 1,
                     'created_at'=>$now,
                     'updated_at'=>$now
                 ]);
@@ -38,10 +38,10 @@ class TypeDanStatusSeeder extends Seeder
         array_map(function ($name){
             $now = date('Y-m-d H:i:s',strtotime('now'));
             DB::table('Status')->insert([
-                    'code'=>substr($name.3),
+                    'code'=>substr($name,0,3),
                     'name'=>$name,
                     'description'=>"Status untuk pembayaran",
-                    'type' => 1,
+                    'type_id' => 2,
                     'created_at'=>$now,
                     'updated_at'=>$now
                 ]);
@@ -51,10 +51,10 @@ class TypeDanStatusSeeder extends Seeder
         array_map(function ($name){
             $now = date('Y-m-d H:i:s',strtotime('now'));
             DB::table('Status')->insert([
-                    'code'=>substr($name.3),
+                    'code'=>substr($name,0,3),
                     'name'=>$name,
                     'description'=>"Status untuk pengiriman",
-                    'type' => 1,
+                    'type_id' => 3,
                     'created_at'=>$now,
                     'updated_at'=>$now
                 ]);
