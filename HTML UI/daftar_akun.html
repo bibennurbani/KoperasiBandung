@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Aplikasi Koperasi</title>
+		<!-- Meta Data -->
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width">
+		<!-- Base CSS -->
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300,700">
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/js/libs/css/ui-lightness/jquery-ui-1.9.2.custom.min.css">
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<!-- App CSS -->
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="assets/css/custom.css">
+	</head>
+	<body class="account-bg">
+		<div class="navbar">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand navbar-brand-image" href="#">
+						<img src="assets/img/logo.png" alt="Aplikasi Koperasi">
+					</a>
+				</div>
+			</div>
+		</div>
+		<hr class="account-header-divider">
+		<div class="account-wrapper">
+			<div class="account-logo">
+				<img src="assets/img/logo-login.png" alt="Aplikasi Koperasi">
+			</div>
+			<div class="account-body">
+				<h3 class="account-body-title">Aplikasi Koperasi.</h3>
+				<h5 class="account-body-subtitle">Silahkan masukan data diri anda.</h5>
+				<form class="form account-form" method="POST" action="login.html">
+					<div class="form-group">
+						<label for="signup-email" class="placeholder-hidden">Nama Anda</label>
+						<input type="text" class="form-control" id="signup-email" placeholder="Nama Anda" tabindex="1">
+					</div>
+					<div class="form-group">
+						<label for="signup-email" class="placeholder-hidden">Alamat Anda</label>
+						<input type="text" class="form-control" id="signup-email" placeholder="Alamat Anda" tabindex="1">
+					</div>
+					<div class="form-group">
+						<label for="signup-email" class="placeholder-hidden">Daftar Sebagai</label>
+						<select id="select-input" class="form-control">
+							<option>Daftar Sebagai</option>
+							<option>Buruh</option>
+							<option>Koperasi</option>
+							<option>Supplier</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label class="checkbox-inline">
+							<input type="checkbox" class="" value="" tabindex="5"> Saya setuju dengan <a href="javascript:;" target="_blank">Terms of Service</a> &amp; <a href="javascript:;" target="_blank">Privacy Policy</a>
+						</label>
+					</div>
+					<div class="form-group">
+						<button type="submit" class="btn btn-secondary btn-block btn-lg" tabindex="6">
+						Buat Akun &nbsp; <i class="fa fa-play-circle"></i>
+						</button>
+					</div>
+				</form>
+			</div>
+			<div class="account-footer">
+				<p>
+					Sudah Memiliki Akun? &nbsp;
+					<a href="login.html" class="">Login</a>
+				</p>
+			</div>
+		</div>
+		
+		<script src="assets/js/libs/jquery-1.10.1.min.js"></script>
+		<script src="assets/js/libs/jquery-ui-1.9.2.custom.min.js"></script>
+		<script src="assets/js/libs/bootstrap.min.js"></script>
+		
+		<!-- App JS -->
+		<script src="assets/js/script.js"></script>
+	</body>
+</html>
