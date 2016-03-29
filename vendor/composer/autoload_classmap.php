@@ -6,12 +6,14 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'CreateBarangPasarTable' => $baseDir . '/database/migrations/2016_03_29_152223_create_BarangPasar_table.php',
     'CreateBarangTable' => $baseDir . '/database/migrations/2016_03_19_083919_create_barang_table.php',
-    'CreateMemberTabel' => $baseDir . '/database/migrations/2016_03_22_050310_create_member_tabel.php',
     'CreatePasar' => $baseDir . '/database/migrations/2016_03_22_050101_create_pasar.php',
     'CreatePdPasar' => $baseDir . '/database/migrations/2016_03_22_045800_create_pd_pasar.php',
+    'CreatePembelianBarangTable' => $baseDir . '/database/migrations/2016_03_29_152837_create_PembelianBarang_table.php',
+    'CreatePembelianTable' => $baseDir . '/database/migrations/2016_03_29_152813_create_Pembelian_table.php',
     'CreateStatusTable' => $baseDir . '/database/migrations/2016_03_19_102255_create_status_table.php',
-    'CreateSupplierTable' => $baseDir . '/database/migrations/2016_03_19_084120_create_supplier_table.php',
+    'CreateUserTable' => $baseDir . '/database/migrations/2016_03_29_151316_create_user_table.php',
     'DatabaseSeeder' => $baseDir . '/database/seeds/DatabaseSeeder.php',
     'File_Iterator' => $vendorDir . '/phpunit/php-file-iterator/src/Iterator.php',
     'File_Iterator_Facade' => $vendorDir . '/phpunit/php-file-iterator/src/Facade.php',
