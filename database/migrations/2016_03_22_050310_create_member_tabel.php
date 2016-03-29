@@ -14,9 +14,9 @@ class CreateMemberTabel extends Migration
     {
         Schema::create('Member', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('nama');
-            $table->string('alamat');
-            $table->increments('status');
+            $table->string('nama',25);
+            $table->string('alamat',25);
+            $table->boolean('aktif');
             $table->timestamps();
         });
     }

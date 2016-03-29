@@ -32,8 +32,9 @@
             <li class="treeview">
                 <a href="#"><span>Master</span> <i class="fa fa-angle-left pull-right"></i></a>
                 <ul class="treeview-menu">
-                    <li><a href="product">Product</a></li>
+                    <li><a href="barang">Barang</a></li>
                     <li><a href="supplier">Supplier</a></li>
+                    <li><a href="pdpasar">PDPasar</a></li>
                     <li><a href="status">Status</a></li>
                 </ul>
             </li>
