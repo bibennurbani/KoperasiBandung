@@ -9,9 +9,15 @@
 <script src="{{ asset('/koprasi/assets/js/plugins/morris/morris.min.js')}}"></script>
 <script src="{{ asset('/koprasi/assets/js/plugins/sparkline/jquery.sparkline.min.js')}}"></script>
 <script src="{{ asset('/koprasi/assets/js/plugins/nicescroll/jquery.nicescroll.min.js')}}"></script>
-<script src="{{ asset('/koprasi/assets/js/plugins/fullcalendar/fullcalendar.min.js')}}"></script>
+<script src="{{ asset('/koprasi/assets/js/plugins/fullcalendar/fullcalendar.min.js')}}"></script>		
+<script src="{{ asset('/koprasi/assets/js/plugins/datatables/jquery.dataTables.min.js')}}"></script>
+<script src="{{ asset('/koprasi/assets/js/plugins/datatables/DT_bootstrap.js')}}"></script>
+<script src="{{ asset('/koprasi/assets/js/plugins/tableCheckable/jquery.tableCheckable.js')}}"></script>
+<script src="{{ asset('/koprasi/assets/js/plugins/icheck/jquery.icheck.min.js')}}"></script>
+
 <!-- App JS -->
 <script src="{{ asset('/koprasi/assets/js/script.js')}}"></script>
+
 <!-- Plugin JS -->
 <script src="{{ asset('/koprasi/assets/js/demos/dashboard.js')}}"></script>
 <script src="{{ asset('/koprasi/assets/js/demos/calendar.js')}}"></script>

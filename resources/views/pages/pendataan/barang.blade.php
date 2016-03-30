@@ -46,110 +46,38 @@
 	</div>
 	<div class="portlet-content">
 		<div class="table-responsive">
-			<table
-				class="table table-striped table-bordered table-hover table-highlight table-checkable"
-				data-provide="datatable"
-				data-display-rows="10"
-				data-info="true"
-				data-search="true"
-				data-length-change="true"
-				data-paginate="true"
-				>
-				<thead>
-					<tr>
-						<th class="checkbox-column">
-							<input type="checkbox" class="icheck-input">
-						</th>
-						<th data-filterable="true" data-sortable="true" data-direction="desc">Nama Barang</th>
-						<th data-direction="asc" data-filterable="true" data-sortable="true">Alamat</th>
-						<th data-filterable="true" data-sortable="true">Daftar Pada</th>
-						<th data-filterable="false" class="hidden-xs hidden-sm">#</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td class="checkbox-column">
-							<input type="checkbox" class="icheck-input">
-						</td>
-						<td>Nama Barang</td>
-						<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</td>
-						<td>DD-MM-YYYY</td>
-						<td class="hidden-xs hidden-sm">
-							<a href="javascript:void(0);" class="btn btn-xs btn-primary" data-original-title="Approve">
-								<i class="fa fa-edit"></i>
-							</a>&nbsp;
-							<a href="javascript:void(0);" class="btn btn-xs btn-primary" data-original-title="Approve">
-								<i class="fa fa-trash-o"></i>
-							</a>
-						</td>
-					</tr>
-					<tr>
-						<td class="checkbox-column">
-							<input type="checkbox" class="icheck-input">
-						</td>
-						<td>Nama Barang</td>
-						<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</td>
-						<td>DD-MM-YYYY</td>
-						<td class="hidden-xs hidden-sm">
-							<a href="javascript:void(0);" class="btn btn-xs btn-primary" data-original-title="Approve">
-								<i class="fa fa-edit"></i>
-							</a>&nbsp;
-							<a href="javascript:void(0);" class="btn btn-xs btn-primary" data-original-title="Approve">
-								<i class="fa fa-trash-o"></i>
-							</a>
-						</td>
-					</tr>
-					<tr>
-						<td class="checkbox-column">
-							<input type="checkbox" class="icheck-input">
-						</td>
-						<td>Nama Barang</td>
-						<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</td>
-						<td>DD-MM-YYYY</td>
-						<td class="hidden-xs hidden-sm">
-							<a href="javascript:void(0);" class="btn btn-xs btn-primary" data-original-title="Approve">
-								<i class="fa fa-edit"></i>
-							</a>&nbsp;
-							<a href="javascript:void(0);" class="btn btn-xs btn-primary" data-original-title="Approve">
-								<i class="fa fa-trash-o"></i>
-							</a>
-						</td>
-					</tr>
-					<tr>
-						<td class="checkbox-column">
-							<input type="checkbox" class="icheck-input">
-						</td>
-						<td>Nama Barang</td>
-						<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</td>
-						<td>DD-MM-YYYY</td>
-						<td class="hidden-xs hidden-sm">
-							<a href="javascript:void(0);" class="btn btn-xs btn-primary" data-original-title="Approve">
-								<i class="fa fa-edit"></i>
-							</a>&nbsp;
-							<a href="javascript:void(0);" class="btn btn-xs btn-primary" data-original-title="Approve">
-								<i class="fa fa-trash-o"></i>
-							</a>
-						</td>
-					</tr>
-					<tr>
-						<td class="checkbox-column">
-							<input type="checkbox" class="icheck-input">
-						</td>
-						<td>Nama Barang</td>
-						<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</td>
-						<td>DD-MM-YYYY</td>
-						<td class="hidden-xs hidden-sm">
-							<a href="javascript:void(0);" class="btn btn-xs btn-primary" data-original-title="Approve">
-								<i class="fa fa-edit"></i>
-							</a>&nbsp;
-							<a href="javascript:void(0);" class="btn btn-xs btn-primary" data-original-title="Approve">
-								<i class="fa fa-trash-o"></i>
-							</a>
-						</td>
-					</tr>
-				</tbody>
-			</table>
+			<table id="statusTable" class="table table-bordered table-striped">
+                    <thead>
+                      <tr>
+                        <th>Code</th>
+                        <th>Name</th>
+                        <th>Descriptions</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                     <tr>
+                        <td>abcd</td>
+                        <td>abcd</td>
+                        <td>abcd</td>
+                      </tr>           
+                    </tbody>
+                    <tfoot>
+                     <tr>
+                        <th>Code</th>
+                        <th>Name</th>
+                        <th>Descriptions</th>
+                      </tr>
+                    </tfoot>
+                  </table>
 		</div>
 	</div>
 </div>				
+@endsection
+
+@section('script')
+<script>
+	$(function () {
+        $("#statusTable").DataTable();
+      });
+</script>
 @endsection

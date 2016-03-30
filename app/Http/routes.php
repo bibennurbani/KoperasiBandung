@@ -40,28 +40,28 @@ Route::group(['prefix' => 'api'], function () {
     //Route::get('status',['as' => 'status', function () {
     //	return App\Status::all();
     //}]);
-    Route::resource('status','Api\StatusController', ['only'=>['index']]);
+    Route::resource('status','Api\StatusController');
 });
 
 Route::group(['prefix' => 'pendataan'], function () {
     //todo : ganti ke controller semua
     //Route::get('/buruh', function () {return view('pages/pendataan/buruh');});
-    Route::resource('buruh','UserController', ['only'=>['index']]);
+    Route::resource('buruh','UserController');
 
     Route::get('/koperasi', function () {return view('pages/pendataan/koperasi');});
 
     //Route::get('/supplier', function () {return view('pages/pendataan/supplier');});
-    Route::resource('supplier','PasarController', ['only'=>['index']]);
+    Route::resource('supplier','PasarController');
 
     //Route::get('/barang', function () {return view('pages/pendataan/barang');});
-    Route::resource('barang','BarangController', ['only'=>['index']]);
+    Route::resource('barang','BarangController');
 });
 
 Route::group(['prefix' => 'master'], function () {
     //Route::get('status',['as' => 'status', function () {
     //	return App\Status::all();
     //}]);
-    Route::resource('status','StatusController', ['only'=>['index']]);
+    Route::resource('status','StatusController');
 });
 
 /*

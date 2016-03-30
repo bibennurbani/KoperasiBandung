@@ -20,15 +20,25 @@ class CreateUserTable extends Migration
             $table->timestamps();
         });
 
+        Schema::create('Koperasi', function (Blueprint $table) {
+            $table->bigIncrements('id');
+            $table->string('nama',25);
+            $table->string('alamat',25);
+            $table->boolean('aktif');
+            $table->timestamps();
+        });
+
         Schema::create('User', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->bigInteger('userrole_Id')->unsigned();
+            $table->bigInteger('kopersai_Id')->unsigned();
             $table->string('nama',25);
             $table->string('alamat',25);
             $table->boolean('aktif');
             $table->timestamps();
 
             $table->foreign('userrole_Id')->references('id')->on('UserRole');
+            $table->foreign('koperasi_Id')->references('id')->on('Koperasi');
         });
     }
 
@@ -41,5 +51,6 @@ class CreateUserTable extends Migration
     {        
         Schema::drop('User');
         Schema::drop('UserRole');
+        Schema::drop('Koperasi');
     }
 }
