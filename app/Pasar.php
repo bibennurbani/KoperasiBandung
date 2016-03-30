@@ -12,8 +12,4 @@ class Pasar extends Model
     {
     	return $this->belongsTo(PDPasar::class);
     }
-
-    public function barang(){
-    	return $this->hasMany(Barang::class);
-    }
 }

@@ -11,9 +11,18 @@
 |
 */
 
-Route::get('/', function () {
-    $data['status'] = App\Status::all();
-    return view('pages/status')->with($data);    
+Route::get('/', function () {    
+    return view('pages/dashboard');    
+});
+
+Route::get('/login', function () {    
+    return view('pages/login');    
+});
+Route::get('/dashboard', function () {    
+    return view('pages/dashboard');    
+});
+Route::post('/dashboard', function () {    
+    return view('pages/dashboard');    
 });
 
 /*
@@ -32,6 +41,20 @@ Route::group(['prefix' => 'api'], function () {
     //	return App\Status::all();
     //}]);
     Route::resource('status','Api\StatusController', ['only'=>['index']]);
+});
+
+Route::group(['prefix' => 'pendataan'], function () {
+    //todo : ganti ke controller semua
+    //Route::get('/buruh', function () {return view('pages/pendataan/buruh');});
+    Route::resource('buruh','UserController', ['only'=>['index']]);
+
+    Route::get('/koperasi', function () {return view('pages/pendataan/koperasi');});
+
+    //Route::get('/supplier', function () {return view('pages/pendataan/supplier');});
+    Route::resource('supplier','PasarController', ['only'=>['index']]);
+
+    //Route::get('/barang', function () {return view('pages/pendataan/barang');});
+    Route::resource('barang','BarangController', ['only'=>['index']]);
 });
 
 Route::group(['prefix' => 'master'], function () {

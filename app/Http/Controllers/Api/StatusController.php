@@ -12,6 +12,6 @@ use App\Http\Controllers\Controller;
 class StatusController extends Controller
 {
     public function index(){
-    	return Status::all();    
+    	return Status::paginate();    
     }    
 }

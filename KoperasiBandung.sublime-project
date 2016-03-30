@@ -1,0 +1,18 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "/home/bibennurbani/Documents/Project/KoperasiBandung"
+		}
+	],
+	"settings":
+	{
+		"xdebug":
+		{
+			"port":9000,
+			"url": "http://localhost:8000/"
+		},
+		"debug": true
+	}
+}

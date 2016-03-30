@@ -1,0 +1,301 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 96.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Local Dependency"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/resources/views/pages/status.blade.php",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/KoperasiBandung.sublime-project",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/app/Http/Controllers/StatusController.php",
+		"/home/bibennurbani/.config/sublime-text-3/Packages/Xdebug Client/Xdebug.sublime-settings",
+		"/home/bibennurbani/.config/sublime-text-3/Packages/User/Xdebug.sublime-settings",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/resources/views/pages/home.blade.php",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/app/Http/Controllers/Api/StatusController.php",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/database/migrations/2016_03_22_045800_create_pd_pasar.php",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/database/migrations/2016_03_19_102255_create_status_table.php",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/database/migrations/2016_03_22_050101_create_pasar.php",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/database/migrations/2016_03_29_151316_create_user_table.php",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/database/migrations/2016_03_29_152223_create_BarangPasar_table.php",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/database/migrations/2016_03_29_152813_create_Pembelian_table.php",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/database/migrations/2016_03_29_152837_create_PembelianBarang_table.php",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/database/migrations/2016_03_19_083919_create_barang_table.php",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/app/Barang.php",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/app/Http/routes.php",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/app/Http/Controllers/Controller.php",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/resources/views/layouts/sidebar.blade.php",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/resources/views/includes/head.blade.php",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/resources/views/includes/scripts.blade.php",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/resources/views/includes/header.blade.php",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/resources/views/includes/sidebar.blade.php",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/app/Member.php",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/app/Pasar.php",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/app/Status.php",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/app/Type.php",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/app/PDpasar.php",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/resources/views/includes/footer.blade.php",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/database/migrations/2016_03_22_050310_create_member_tabel.php",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/database/migrations/2016_03_29_151327_create_UserRole_table.php",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/app/Http/Controllers/SupplierController.php",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/database/migrations/2016_03_19_084120_create_supplier_table.php",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/resources/views/layouts/default.blade.php",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/resources/views/layout/default.blade.php",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/resources/views/layout/sidebar.blade.php",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/database/seeds/TypeDanStatusSeeder.php",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/vendor/laravel/framework/src/Illuminate/Support/Pluralizer.php",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/vendor/doctrine/inflector/lib/Doctrine/Common/Inflector/Inflector.php",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/tests/ExampleTest.php",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/app/Supplier.php",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/vendor/mockery/mockery/library/Mockery/Matcher/Type.php",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/.env.example",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/.env",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/app/Events/Event.php",
+		"/home/bibennurbani/Documents/Project/KoperasiBandung/bootstrap/autoload.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"},\n",
+			"example1",
+			"/bower_components/admin-lte",
+			"/bower_components/",
+			"\"/bower_components/",
+			"(\"/",
+			"dist",
+			"'es'",
+			"$table",
+			"statuses"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				2,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.7,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.xdebug":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "KoperasiBandung.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 2,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false,
+			"restore_index":
+			{
+				"30":
+				{
+					"group": 0,
+					"index": 0
+				},
+				"32":
+				{
+					"group": 0,
+					"index": 2
+				},
+				"37":
+				{
+					"group": 0,
+					"index": 1
+				}
+			},
+			"restore_layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			}
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 402.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
