@@ -13,6 +13,6 @@ class StatusController extends Controller
     public function index(){
     	//return view('pages/home');
     	$data['status'] = Status::paginate();
-        return view('pages/status')->with($data);    
+        return view('pages.status')->with($data);    
     }    
 }

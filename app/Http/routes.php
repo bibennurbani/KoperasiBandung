@@ -48,7 +48,8 @@ Route::group(['prefix' => 'pendataan'], function () {
     //Route::get('/buruh', function () {return view('pages/pendataan/buruh');});
     Route::resource('buruh','UserController');
 
-    Route::get('/koperasi', function () {return view('pages/pendataan/koperasi');});
+    //Route::get('/koperasi', function () {return view('pages/pendataan/koperasi');});
+    Route::resource('koperasi','KoperasiController');
 
     //Route::get('/supplier', function () {return view('pages/pendataan/supplier');});
     Route::resource('supplier','PasarController');

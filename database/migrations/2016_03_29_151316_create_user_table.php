@@ -31,7 +31,7 @@ class CreateUserTable extends Migration
         Schema::create('User', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->bigInteger('userrole_Id')->unsigned();
-            $table->bigInteger('kopersai_Id')->unsigned();
+            $table->bigInteger('koperasi_Id')->unsigned();
             $table->string('nama',25);
             $table->string('alamat',25);
             $table->boolean('aktif');

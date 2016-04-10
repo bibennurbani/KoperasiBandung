@@ -11,6 +11,6 @@ use App\Http\Requests;
 class UserController extends Controller
 {
     public function index(){
-        return view('pages/pendataan/buruh');
+        return view('pages.pendataan.buruh');
     }    
 }

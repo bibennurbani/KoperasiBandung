@@ -10,6 +10,7 @@
 </div>
 					<br>
 <div class="portlet">
+{!! Form::open(array('route' => 'pendataan.barang.store')) !!}
 	<div class="portlet-header">
 		<h3>
 		<i class="fa fa-tasks"></i>
@@ -18,15 +19,21 @@
 	</div>
 	<div class="portlet-content">
 		<div class="row">
-			<div class="col-sm-12">
-				<div class="form-group">
-					<label for="text-input">Nama</label>
-					<input type="text" id="text-input" class="form-control" />
-				</div>
-				<div class="form-group">
-					<label for="textarea-input">Alamat</label>
-					<textarea name="textarea-input" id="textarea-input" cols="10" rows="3" class="form-control"></textarea>
-				</div>
+			<div class="col-sm-12">	
+				
+					<div class="form-group">
+						<label for="text-input">Nama</label>
+						<input type="text" id="text-input" class="form-control" />		
+					</div>
+					<div class="form-group">
+						<label for="text-input">Nama</label>
+						<input type="text" id="text-input" class="form-control" />
+					</div>
+					<div class="form-group">
+						<label for="textarea-input">Descriptions</label>
+						<textarea name="textarea-input" id="textarea-input" cols="10" rows="3" class="form-control"></textarea>
+					</div>
+				
 			</div>
 		</div>
 	</div>
@@ -35,6 +42,7 @@
 			<button class="btn btn-primary">Proses</button>
 		</div>
 	</div>
+	{!! Form::close() !!}
 </div>
 					<br>
 <div class="portlet">
@@ -44,6 +52,7 @@
 		Data Barang
 		</h3>
 	</div>
+	@if ($barang->count())
 	<div class="portlet-content">
 		<div class="table-responsive">
 			<table id="statusTable" class="table table-bordered table-striped">
@@ -55,11 +64,13 @@
                       </tr>
                     </thead>
                     <tbody>
+                     @foreach($barang as $item)
                      <tr>
-                        <td>abcd</td>
-                        <td>abcd</td>
-                        <td>abcd</td>
-                      </tr>           
+                        <td>{{ $item['code'] }}</td>
+                        <td>{{ $item['name'] }}</td>
+                        <td>{{ $item['description'] }}</td>
+                      </tr>
+                    @endforeach           
                     </tbody>
                     <tfoot>
                      <tr>
@@ -71,6 +82,9 @@
                   </table>
 		</div>
 	</div>
+	@else
+    	Data Barang Masih Kosong
+	@endif
 </div>				
 @endsection
 

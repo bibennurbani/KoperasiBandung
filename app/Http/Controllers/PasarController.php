@@ -10,6 +10,6 @@ class PasarController extends Controller
 {
     //
     public function index(){
-    	return view('pages/pendataan/supplier');
+    	return view('pages.pendataan.supplier');
 	}
 }

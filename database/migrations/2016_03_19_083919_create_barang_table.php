@@ -16,6 +16,7 @@ class CreateBarangTable extends Migration
             $table->bigIncrements('id');
             $table->char('code',4);
             $table->string('nama',25);
+            $table->string('description',100);
             $table->timestamps();
         });
     }
