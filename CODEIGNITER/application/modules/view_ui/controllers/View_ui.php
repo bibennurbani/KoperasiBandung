@@ -53,6 +53,20 @@ class View_ui extends MY_Controller {
 		$this->template->render($this->data);
 	}
 
+	public function transaksi_pemesanan_v()
+	{
+		$this->template_m->pendataan();
+
+		$this->data['content_v'] = 'transaksi_pemesanan_v';
+		$this->template->render($this->data);
+	}
+
+	public function transaksi_invoice_v()
+	{
+		$this->data['content_v'] = 'transaksi_invoice_v';
+		$this->template->render($this->data);
+	}
+
 }
 
 /* End of file View_ui.php */

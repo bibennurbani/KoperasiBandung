@@ -32,10 +32,10 @@
 						<span class="caret"></span>
 					</a>
 					<ul class="dropdown-menu">
-						<li><a href="#"><i class="fa fa-shopping-cart nav-icon"></i> Pemesanan</a></li>
-						<li><a href="#"><i class="fa fa-money nav-icon"></i> Pembayaran</a></li>
-						<li><a href="#"><i class="fa fa-truck nav-icon"></i> Pengiriman</a></li>
-						<li><a href="#"><i class="fa fa-ticket nav-icon"></i> Return</a></li>
+						<li><a href="<?php echo base_url('view_ui/transaksi_pemesanan_v'); ?>"><i class="fa fa-shopping-cart nav-icon"></i> Pemesanan</a></li>
+						<li><a href="<?php echo base_url('view_ui/transaksi_pembayaran_v'); ?>"><i class="fa fa-money nav-icon"></i> Pembayaran</a></li>
+						<li><a href="<?php echo base_url('view_ui/transaksi_pengiriman_v'); ?>"><i class="fa fa-truck nav-icon"></i> Pengiriman</a></li>
+						<li><a href="<?php echo base_url('view_ui/transaksi_return_v'); ?>"><i class="fa fa-ticket nav-icon"></i> Return</a></li>
 					</ul>
 				</li>
 				<li class="dropdown ">
